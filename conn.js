@@ -70,7 +70,7 @@ module.exports = lexx = async (lexx, msg, chatUpdate, store) => {
     const itsMelexx = [botNumber, ...owner].map((v) => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(msg.sender);
     const itsMebott = msg.sender == botNumber ? true : false;
     const text = (q = args.join(' '));
-    const isCreator = [`${setting.ownerNumber}`, '6285156057586@s.whatsapp.net', '@s.whatsapp.net'].includes(sender) ? true : false;
+    const isCreator = [`${setting.ownerNumber}`, '6285238543351@s.whatsapp.net', '@s.whatsapp.net'].includes(sender) ? true : false;
     const quoted = msg.quoted ? msg.quoted : msg;
     const mime = (quoted.msg || quoted).mimetype || '';
     const jam = moment.tz('asia/jakarta').format('HH:mm:ss');
@@ -153,6 +153,7 @@ module.exports = lexx = async (lexx, msg, chatUpdate, store) => {
 ╠⟩ ${prefix}grupmenu
 ╠⟩ ${prefix}mainmenu
 ╠⟩ ${prefix}aksesmenu
+╠⟩ Bot Owner Amrul Izwan
 ╚════════════════
 ╔═══《 𝑹𝑼𝑵𝑻𝑰𝑴𝑬 》═══⊱
 ╠⟩ ${runtime(process.uptime())}
@@ -255,7 +256,7 @@ module.exports = lexx = async (lexx, msg, chatUpdate, store) => {
       case 'script':
         {
           msg.reply(`Mau Buy Scnya? 
-Chat WhatsApp Amrul Izwan`);
+Chat WhatsApp Amrul Izwan wa.me/6285238543351`);
         }
         break;
       case 'group':
